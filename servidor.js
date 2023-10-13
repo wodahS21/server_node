@@ -6,8 +6,8 @@ const { type } = require('os');
 http.createServer(function(request, response){
 console.log('request', request.url);
 
-var filPath = '.' + request.url;
-if (filePath =='./'){
+var filePath = '.' + request.url;
+if (filePath =='./') {
     filePath = './index.html';
 }
 var extname = String(path.extname(filePath)).toLowerCase();
