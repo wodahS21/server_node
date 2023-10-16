@@ -1,9 +1,9 @@
 window.onload = function () {
     const IMAGENES = [
-        'img/ed.jpeg',
-        'img/meli.jpg',
-        'img/Falling.jpeg',
-        'img/inge.jpg', 
+        'images/ed.jpeg',
+        'images/meli.jpg',
+        'images/Falling.jpeg',
+        'images/inge.jpg', 
     ];
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
     let posicionActual = 0;

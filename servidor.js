@@ -8,7 +8,7 @@ console.log('request', request.url);
 
 var filePath = '.' + request.url;
 if (filePath =='./') {
-    filePath = './index.html';
+    filePath = './carrusel.html';
 }
 var extname = String(path.extname(filePath)).toLowerCase();
 var contentType = ('text/html');
