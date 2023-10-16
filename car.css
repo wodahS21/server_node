@@ -1,0 +1,64 @@
+body{
+    background-color: #302f31e9;   
+}
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente el contenido */
+    background-color: #272529e9;
+}
+
+#imagen {
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+}
+
+.controles {
+    display: flex;
+    flex-direction: row; /* Alinea los botones en una fila horizontal */
+    justify-content: center; /* Centra horizontalmente los botones */
+    margin-top: 10px; /* Agrega margen superior para separar del carrusel */
+}
+
+.controles button {
+    margin: 7px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077B5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.controles button:hover {
+    background-color: #005689;
+}
+#retroceder{
+    background-color: #6857c7;  
+    width: 20%;
+    height: 40px;
+    border-style: outset; 
+}
+#avanzar{
+    background-color: #6857c7;  
+    width: 20%;
+    height: 40px;
+    border-style: outset; 
+}
+#mostrarEnGrande {
+    background-color: #ff6347;
+}
+
+.controles button[disabled] {
+    background-color: #03ff31;
+    cursor: not-allowed;
+}
